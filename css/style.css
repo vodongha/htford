@@ -1182,6 +1182,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .fh5co-blog {
     width: 100%;
+	padding-bottom: 200px;
   }
 }
 .fh5co-blog .blog-text {
@@ -1732,24 +1733,40 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 0;
 }
 
+.imgpost {height: auto; width: 100%;}
 body {
    background: #fff;
    color: 333;
 }
  
 .postvideo {
+
     position: relative;
+
     padding-bottom: 56.25%;
+
 }
+
 .postvideo iframe {
+
     position: absolute;
+
     top: 0;
+
     left: 0;
+
     width: 100%;
+
     height: 100%;
+
 }
+
 /*Khung hình show sản phẩm*/
+
 .show-car-img {
+
 	padding: 1px;
+
 	background-color:#f85a16;
+
 }

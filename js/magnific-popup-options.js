@@ -1,5 +1,4 @@
-//Chạy video tren Youtube
-$('.popup-youtube'/*Tên gọi hàm*/).magnificPopup({
+$('.popup-youtube').magnificPopup({
     type: 'iframe',
     iframe: {
         patterns: {

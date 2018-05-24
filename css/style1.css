@@ -207,7 +207,7 @@
     19% { opacity: 0 }
     100% { opacity: 0 }
 }
-/* Hiển thị khi hoạt ảnh không hỗ trợ */
+/* Show at least something when animations not supported */
 .no-cssanimations .cb-slideshow li span{
 	opacity: 1;
 }

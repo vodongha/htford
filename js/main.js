@@ -57,7 +57,7 @@
 			.find('li')
 			.removeClass('has-dropdown');
 
-		//Menu trên di động
+		// Hover dropdown menu on mobile
 		$('.offcanvas-has-dropdown').mouseenter(function(){
 			var $this = $(this);
 
@@ -192,7 +192,7 @@
 	};
 
 
-	//Tải trang
+	// Loading page
 	var loaderPage = function() {
 		$(".fh5co-loader").fadeOut("slow");
 	};
@@ -246,7 +246,7 @@
 
 	var tabs = function() {
 
-		//Tự động điều chỉnh chiều cao
+		// Auto adjust height
 		$('.fh5co-tab-content-wrap').css('height', 0);
 		var autoHeight = function() {
 
@@ -275,7 +275,7 @@
 		autoHeight();
 
 
-		//Nhấp vào menu tab
+		// Click tab menu
 		$('.fh5co-tab-nav a').on('click', function(event){
 			
 			var $this = $(this),
@@ -317,7 +317,7 @@
 		testimonialCarousel();
 		tabs();
 	});
-//Click show hình
+//Click show h�nh
 	$('.modal-click').click((e) => {
 		var img_src = $(e.target).attr('data-img-show');
 		$('.render-img').attr('src', img_src);
