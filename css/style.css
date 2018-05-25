@@ -1179,12 +1179,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-blog a img {
   width: 100%;
 }
-@media screen and (max-width: 768px) {
-  .fh5co-blog {
-    width: 100%;
-	padding-bottom: 200px;
-  }
-}
+
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
   position: relative;
@@ -1733,12 +1728,7 @@ h1, h2, h3, h4, h5, h6, figure {
   opacity: 0;
 }
 
-.imgpost {height: auto; width: 100%;}
-body {
-   background: #fff;
-   color: 333;
-}
- 
+ /*Tùy chỉnh co giãn video theo màn hình*/
 .postvideo {
 
     position: relative;
@@ -1769,4 +1759,120 @@ body {
 
 	background-color:#f85a16;
 
+}
+/*Tùy chỉnh trên các tỉ lệ màn hình thông dụng*/
+@media screen and (max-width: 768px) {
+  .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+@media only screen and (max-width: 780px) {
+.fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+edia only screen and (max-width: 1024px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 980px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 800px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+@media only screen and (max-width: 720px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 640px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 600px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 568px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 563px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 549px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 534px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 480px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 360px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 338px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 330px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
+}
+ 
+@media only screen and (max-width: 320px) {
+ .fh5co-blog {
+    width: 100%;
+	padding-bottom: 200px;
+  }
 }

@@ -207,7 +207,8 @@
     19% { opacity: 0 }
     100% { opacity: 0 }
 }
-/* Show at least something when animations not supported */
+
+/*Tùy chỉnh trên các tỉ lệ màn hình thông dụng*/
 .no-cssanimations .cb-slideshow li span{
 	opacity: 1;
 }
